@@ -9,7 +9,7 @@ class Animal:
         print("So far", self.x)
 
     def __del__(self):
-        print("I am destructed", self.x)
+        print("I am inside destructed", self.x)
 
 class Mammals (Animal):
     points = 0
